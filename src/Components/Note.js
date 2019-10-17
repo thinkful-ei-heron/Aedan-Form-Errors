@@ -33,11 +33,11 @@ function Note(props) {
 
 Note.propTypes = {
   note: PropTypes.shape({
-      id: PropTypes.string,
-      name: PropTypes.string,
-      modified: PropTypes.string,
-      folderId: PropTypes.string,
-      content: PropTypes.string,
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      modified: PropTypes.string.isRequired,
+      folderId: PropTypes.string.isRequired,
+      content: PropTypes.string.isRequired,
   })
 };
 
