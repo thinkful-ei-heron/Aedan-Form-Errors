@@ -1,9 +1,9 @@
 import React from 'react';
-import Note from './Note';
+import Note from '../Note/Note';
 import './NoteContent.css'
-import NotefulContext from './NotefulContext';
+import NotefulContext from '../../NotefulContext';
 
-export default function(props) {
+function NoteContent(props) {
   return (
     <NotefulContext.Consumer>
       {({contextState}) => {
@@ -27,3 +27,5 @@ export default function(props) {
   )
   
 }
+
+export default NoteContent;

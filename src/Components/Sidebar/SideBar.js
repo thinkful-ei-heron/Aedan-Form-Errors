@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 import {Link} from 'react-router-dom';
-import NotefulContext from './NotefulContext'
+import NotefulContext from '../../NotefulContext'
 
 export default function Sidebar(props) {
     let newArray = <NotefulContext.Consumer>

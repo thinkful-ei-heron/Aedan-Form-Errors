@@ -1,5 +1,5 @@
 import React from 'react';
-import NotefulContext from './NotefulContext';
+import NotefulContext from '../../NotefulContext';
 import {withRouter} from 'react-router-dom';
 import './AddNote.css'
 

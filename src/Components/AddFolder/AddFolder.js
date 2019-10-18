@@ -1,12 +1,9 @@
 import React from 'react';
 import './AddFolder.css'
-import NotefulContext from './NotefulContext';
+import NotefulContext from '../../NotefulContext';
 import {withRouter} from 'react-router-dom';
 
 class AddFolder extends React.Component {
-    state = {
-
-    }
 
     render () {
         return (

@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import SideBar from './Components/SideBar';
-import NoteContent from './Components/NoteContent';
-import NoteSidebar from './Components/NoteSidebar';
+import SideBar from './Components/Sidebar/SideBar';
+import NoteContent from './Components/NoteContent/NoteContent';
+import NoteSidebar from './Components/NoteSidebar/NoteSidebar';
 import {Route, Switch, Link} from 'react-router-dom';
-import NotefulContext from './Components/NotefulContext';
-import NoteSection from './Components/NoteSection';
-import AddFolder from './Components/AddFolder';
-import AddNote from './Components/AddNote';
-import ErrorPage from './Components/ErrorPage';
+import NotefulContext from './NotefulContext';
+import NoteSection from './Components/NoteSection/NoteSection';
+import AddFolder from './Components/AddFolder/AddFolder';
+import AddNote from './Components/AddNote/AddNote';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 class App extends React.Component {
 

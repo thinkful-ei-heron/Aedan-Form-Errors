@@ -1,7 +1,7 @@
 import React from 'react';
 import './NoteSidebar.css';
 import {withRouter} from 'react-router-dom';
-import NotefulContext from './NotefulContext';
+import NotefulContext from '../../NotefulContext';
 
 function NoteSidebar(props) {
   return (
